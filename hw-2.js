@@ -6,12 +6,12 @@ a = 20;
 alert(a);
 
 // задание 2
-const iPhone;
+let iPhone;
 iPhone = 'Год выпуска первого iPhone - 2007';
 alert(iPhone);
 
 // задание 3
-const creatorJs;
+let creatorJs;
 creatorJs = 'JavaScript создал Брендан Айк';
 alert(creatorJs);
 
