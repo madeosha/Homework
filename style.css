@@ -31,7 +31,7 @@ body {
   font-weight: 700px;
   font-size: 64px;
   line-height: 78px;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 788px;
   padding-bottom: 32px;
 }
@@ -41,18 +41,18 @@ body {
   font-weight: 300px;
   font-size: 18px;
   line-height: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 481px;
   padding-bottom: 44px;
 }
 
 .main__btn {
   font-family: "Montserrat";
-  background: #9C0332;
+  background: #9c0332;
   border-radius: 30px;
   width: 234px;
   height: 48px;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: all 1.05s;
 }
 .main__btn:hover {
@@ -76,7 +76,7 @@ body {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-left: 32px;
   padding-top: 236px;
 }
