@@ -96,4 +96,41 @@ body {
   }
 }
 
+.section {
+  background: #000915;
+  display: grid;
+  grid-template-columns: repeat (2, 1fr);
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  &__header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+  }
+  &__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+  }
+  &__btn {
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234px;
+    height: 49px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+}
+
 @import "mobile";

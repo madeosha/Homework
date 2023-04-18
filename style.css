@@ -96,6 +96,43 @@ body {
   background-position: center;
 }
 
+.section {
+  background: #000915;
+  display: grid;
+  grid-template-columns: repeat 2, 1fr;
+}
+.section__content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.section__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.section__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.section__btn {
+  background: #9C0332;
+  border-radius: 30px;
+  width: 234px;
+  height: 49px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
