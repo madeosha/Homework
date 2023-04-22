@@ -67,6 +67,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 32px;
+  padding-bottom: 282px;
   &__box {
     width: 378px;
     height: 300px;
@@ -98,11 +99,11 @@ body {
 
 .section {
   background: #000915;
-  display: grid;
-  grid-template-columns: repeat (2, 1fr);
+  display: flex;
+  flex-direction: row;
   &__content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 32px;
   }
@@ -119,6 +120,7 @@ body {
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
+    width: 584px;
   }
   &__btn {
     background: #9C0332;
@@ -130,6 +132,10 @@ body {
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+  }
+  &__img {
+    width: 485px;
+    height: 333px;
   }
 }
 
