@@ -1,16 +1,14 @@
 function gameSeason() {
 let monthNumber = Number(prompt('Введите номер месяца, чтобы узнать сезон'));
 if (monthNumber >=  1 && monthNumber <= 2 || monthNumber == 12) {
-    console.log("Зима")    
+    console.log("Зима");    
 } else if (monthNumber >=  3 && monthNumber <= 4 || monthNumber == 5) {
-    console.log("Весна") 
+    console.log("Весна");
 } else if (monthNumber >=  6 && monthNumber <= 7 || monthNumber == 8) {
-    console.log("Лето") 
+    console.log("Лето"); 
 } else if (monthNumber >=  9 && monthNumber <= 10 || monthNumber == 11) {
-    console.log("Осень") 
+    console.log("Осень"); 
 } else {
-    console.log("Вы ввели что-то не то")
+    console.log("Вы ввели что-то не то");
 }
 }
-
-gameSeason();
