@@ -1,3 +1,4 @@
+function gameSeason() {
 let monthNumber = Number(prompt('Введите номер месяца, чтобы узнать сезон'));
 if (monthNumber >=  1 && monthNumber <= 2 || monthNumber == 12) {
     console.log("Зима")    
@@ -10,3 +11,6 @@ if (monthNumber >=  1 && monthNumber <= 2 || monthNumber == 12) {
 } else {
     console.log("Вы ввели что-то не то")
 }
+}
+
+gameSeason();

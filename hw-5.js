@@ -28,14 +28,11 @@ function cub(num) {
 cub(3);
 
 // задание 3.2
-cub(function(num) {
-	return num * num;
-});
-
-function cub(mult) {
-	console.log(mult(9));
+function cub(num) {
+    return num * num;
 }
 
+cub(3);
 
 // задание 4
 "use strict";
@@ -73,8 +70,9 @@ const checkNum = (a,b) => {
 // задание 6
 function сheck() {
     (n = Number(prompt('Введите число'))); 
-    return isNaN(n) === false ? alert(`n в кубе равняется ${n = n ** 3}`) : alert('Переданный параметр не является числом')
-}; 
+    alert(!isNaN(n) ? `n в кубе равняется ${n = n ** 3}` : 'Переданный параметр не является числом')
+} 
+
 сheck();
 
 // задание 7
