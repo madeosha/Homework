@@ -2,7 +2,7 @@
 const numeral = [1, 5, 4, 10, 0, 3];
 
 for (let i = 0; i < numeral.length; i++) {
-	if (numeral[i] == 10) break;
+	if (numeral[i] === 10) break;
 	console.log(numeral[i]);
 }
 
@@ -17,13 +17,13 @@ const str = unity.join('');
 console.log(str);
 
 // задание 4
-let arr = [[1, 1, 1], [1, 1, 1], [1, 1, 1]];
+let arr = [];
 
-for (let i = 1;i <= 1; i++) {
-	arr[i] = [1, 1, 1];
+for (let i = 0;i <= 2; i++) {
+	arr[i] = [];
 	
-	for (let j = 1; j <= 1; j++) {
-		arr[i][j] = j; 
+	for (let j = 0; j <= 2; j++) {
+		arr[i][j]=1; 
 	}
 }
 
@@ -31,9 +31,7 @@ console.log(arr);
 
 //задание 5
 const numbs = [1, 1, 1];
-numbs.push(2);
-numbs.push(2);
-numbs.push(2);
+numbs.push(2,2,2);
 
 console.log(numbs);
 
@@ -74,7 +72,7 @@ console.log(word);
 
 //задание 9
 let array = [[1, 2, 3,],[4, 5, 6]];
-array = array.join();
+array = array.flat();
 
 console.log(array);
 
