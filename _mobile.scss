@@ -27,9 +27,43 @@
       text-align: center;
     }
   }
-  .game__box {
-    width: 767px;
-    background-size: cover;
+
+  .game {
+    padding-bottom: 178px;
+    &__box {
+      width: 767px;
+      background-size: cover;
+    }
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    &__content {
+      text-align: center;
+      justify-content: center;
+    }
+    &__header {
+      width: 243px;
+      height: 39px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+    }
+    &__text {
+      width: 343px;
+      height: 66px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    &__img {
+      width: 344px;
+      height: 236px;
+    }
   }
 }
 
