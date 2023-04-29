@@ -2,8 +2,8 @@
 const numeral = [1, 5, 4, 10, 0, 3];
 
 for (let i = 0; i < numeral.length; i++) {
-	if (numeral[i] === 10) break;
-	console.log(numeral[i]);
+console.log(numeral[i]);
+if (numeral[i] == 10) break;
 }
 
 //задание 2
