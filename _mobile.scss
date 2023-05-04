@@ -31,21 +31,54 @@
   .game {
     padding-bottom: 178px;
     &__box {
-      width: 767px;
+      width: 343px;
       background-size: cover;
     }
   }
 
-  .section {
+  .sectionOne {
     display: flex;
     flex-direction: column;
+    gap: 32px;
+    padding-bottom: 136px;
+    &__content {
+      text-align: center;
+      justify-content: center;
+      padding-bottom: 64px;
+    }
+    &__header {
+      width: 243px;
+      height: 39px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+    }
+    &__text {
+      width: 343px;
+      height: 66px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    &__img {
+      width: 344px;
+      height: 236px;
+    }
+  }
+
+  .sectionTwo {
+    display: flex;
+    flex-direction: column-reverse;
     gap: 32px;
     &__content {
       text-align: center;
       justify-content: center;
+      padding-bottom: 64px;
     }
     &__header {
-      width: 243px;
+      width: 264px;
       height: 39px;
       font-style: normal;
       font-weight: 700;
