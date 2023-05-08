@@ -57,13 +57,12 @@ timer(30);
 // ЗАДАНИЕ 4
 function delayForSecond(callback) {
     setTimeout(() => {
-        console.log('Привет, Глеб!');
-    }, 1000);
     callback();
+    }, 1000);
 }
 
 delayForSecond(function () {
-  console.log();
+        console.log('Привет, Глеб!');
 })
 
 // ЗАДАНИЕ 5
