@@ -13,14 +13,17 @@ function squareSum(numbers) {
 console.log(squareSum([1, 2, 2]));
 
 //ЗАДАНИЕ 3
-function nearestSq(n){
-for (i = 0; i < n; i++) {
-    if (n > 0 && Math.sqrt(n) % 1 === 0) {
-       return n;
-    } else {
-        return Math.round(Math.sqrt(n)) ** 2;
+function nearestSq(n) {
+    if (Number.isInteger(Math.sqrt(n))) {
+      return n;
     }
-}
+    let lower = Math.floor(Math.sqrt(n)) ** 2;
+    let higher = Math.ceil(Math.sqrt(n)) ** 2;
+    if (n - lower < higher - n) {
+      return lower;
+    } else {
+      return higher;
+    }
 }
 console.log(nearestSq(111));
 console.log(nearestSq(144));
