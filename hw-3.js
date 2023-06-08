@@ -58,3 +58,25 @@ switch (monthNumber) {
         console.log('Ввёл что-то не то');
         break;
 }
+
+// задание 7
+let number = prompt('Пожалуйста, введите любое число');
+
+if (isNaN(number)) {
+    alert('Вы ввели не число');
+} else {
+    alert((number % 2 === 0) ? 'Число четное' : 'Число нечетное');
+}
+
+// задание 8
+const platform = navigator.platform;
+
+let clientIOS = 0;
+
+if (platform === 'Android') {
+    clientIOS = 1;
+} else {
+    clientIOS = 0;
+}
+
+alert(clientIOS === 1 ? 'Установите версию приложения для Android по ссылке' : 'Установите версию приложения для iOS по ссылке');
