@@ -18,13 +18,21 @@ console.log(people.sort(function (a, b) {
 
 // ЗАДАНИЕ 2
 function isPositive(number) {
-    return number > 0;
-    }
-function isMale(item) {
-    return item.gender === 'male';
-    }
-function filter(arr, ruleFunction) {
-    return arr.filter(ruleFunction)
+    return number >= 0;
+}
+function isMale(person) {
+    return person.gender === 'male';
+}
+function filter(arr, callback) {
+    const resultArr = [];
+
+    arr.map((elem) => {
+        if (callback(elem)) {
+            resultArr.push(elem)
+        }
+    });
+
+    return resultArr;
 }
     
 console.log(filter([3, -4, 1, 9], isPositive));
