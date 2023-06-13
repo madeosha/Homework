@@ -36,14 +36,11 @@ numbs.push(2,2,2);
 console.log(numbs);
 
 // задание 6
-let nums = [9, 8, 7, 'a', 6, 5];
-nums = nums.sort();
+const arrSort = [9, 8, 7, 'a', 6, 5];
 
-console.log(nums);
+arrSort.sort().pop();
 
-let delNums = nums.pop();
-
-console.log(nums);
+console.log(arrSort);
 
 // задание 7
 const arrSearch = [9, 8, 7, 6, 5]; 
