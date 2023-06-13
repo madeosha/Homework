@@ -109,3 +109,14 @@ console.log(negativeNumbers(set));
 
 //задание 14
 //задание 15
+const arrNew = [];
+let sumNew = 0;
+
+for (let i = 0; i < 6; i++) {
+  const number = Math.floor(Math.random() * 10) + 1;
+  arrNew.push(number);
+  sumNew += number;
+}
+
+console.log(arrNew);
+console.log(`Среднее арифмитическое: ${sumNew / arrNew.length}`);
