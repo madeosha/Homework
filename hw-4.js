@@ -7,19 +7,19 @@ while (i < 2) {
 }
 
 // задание 2
-let i = 1;
+let a = 1;
 
-while (i <= 5) {
-    console.log (i);
-    i++;
+while (a <= 5) {
+    console.log (a);
+    a++;
 }
 
 // задание 3
-let i = 7;
+let b = 7;
 
-while (i <= 22) {
-    console.log (i);
-    i++;
+while (b <= 22) {
+    console.log (b);
+    b++;
 }
 
 // задание 4
@@ -32,7 +32,6 @@ for (let key in obj) {
     console.log(`${key} - зарплата ${obj[key]} долларов`);
 }
 
-
 // задание 5
 let num = 0;
 for (let n=1000; n>50; n=n/2) {
@@ -40,7 +39,7 @@ for (let n=1000; n>50; n=n/2) {
 }
 
 // задание 6
-for (let friday=6; friday <=31; friday=friday + 7) {
+for (let friday = 5; friday <= 31; friday += 7) {
     console.log(`Сегодня пятница, ${friday} - e число. Необходимо подготовить отчёт`);
 }
 
